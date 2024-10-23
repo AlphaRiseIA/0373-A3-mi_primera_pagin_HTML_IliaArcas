@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página HTML</title>
+    <link rel="icon" href="./address-card-solid.svg" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px;
+            text-align: left; /* Texto alineado a la izquierda */
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav {
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            margin-bottom: 10px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: blue; /* Enlaces en color azul */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Mi Primera Página HTML</h1>
+    </header>
+
+    <nav>
+        <h2 id="indice">Índice de contenidos</h2>
+        <ul>
+            <li><a href="#html">HTML</a></li>
+            <li><a href="#primera-web">La primera web</a></li>
+            <li><a href="#bibliografia">Bibliografía y enlaces</a></li>
+        </ul>
+    </nav>
+
+    <section id="html">
+        <h2>HTML</h2>
+        <p>
+            El laboratorio del CERN en Suiza es uno de los centros científicos más importantes del planeta, y como tal, estaba muy bien conectado con otras instituciones similares. Fue uno de los primeros en utilizar <a href="https://es.wikipedia.org/wiki/ARPANET" target="_blank">ARPANET</a>, la predecesora de internet.
+        </p>
+        <p>
+            Entre los 10,000 empleados del CERN repartidos por varios laboratorios, la comunicación era constante y necesaria, y se quejaban de que aún con el <a href="https://es.wikipedia.org/wiki/Hypertext_Transfer_Protocol" target="_blank">correo electrónico (HTTP)</a>, disponible para ellos desde los años 80, no era suficiente para la cantidad de trabajo desarrollado, el número de usuarios y los datos intercambiados.
+        </p>
+        <p>
+            Berners-Lee conectó el <a href="https://es.wikipedia.org/wiki/Hypertext_Transfer_Protocol" target="_blank">HTTP</a>, el sistema de enlaces, con el <a href="https://es.wikipedia.org/wiki/Transmission_Control_Protocol" target="_blank">TCP</a>. Juntó estos elementos con el sistema de nombre de dominios y así nació la “World Wide Web”.
+        </p>
+        <section>
+            <h2>Ejemplo de Imagen con Pie de Foto</h2>
+            <figure>
+                <img src="./img/1.png" alt="Descripción de la imagen" width="500">
+                <figcaption>Fotografía: Tim Berners-Lee</figcaption>
+            </figure>
+        </section>
+    </section>
+
+    <section id="primera-web">
+        <h2>La primera web</h2>
+        <p>
+            Tim Berners-Lee sabía de qué iba la cosa de la WWW, pero también era consciente de que la mayoría de usuarios no entendía mucho de informática, y decidió abrir la primera página web de la historia para explicar cómo funcionaba. Esa página aún existe (estuvo desactivada unos años, pero el W3C la ha restaurado), aunque no tiene exactamente la misma apariencia que la primera versión, diseñada en noviembre de 1990. En este enlace, <a href="http://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank">http://info.cern.ch/hypertext/WWW/TheProject.html</a> es posible verla en su versión de 1992, pero es muy similar a la original, según su propio autor.        
+        </p>
+        <figure>
+            <img src="./img/2.png" alt="Descripción de la imagen" width="500">
+            <figcaption>Fotografía: Primera página web de la historia
+            </figcaption>
+        </figure>
+    </section>
+
+    <section id="bibliografia">
+        <h2>Bibliografía y enlaces</h2>
+        <ol>
+            <li><strong>Historia Web</strong>
+                <ul>
+                    <li><a href="https://www.nobbot.com/el-origen-de-la-world-wide-web-%C2%BFcuando-nace-y-quien-la-inventa/" target="_blank">Historia de World Wide Web: cuándo nace y quién la inventa (nobbot.com)</a></li>
+                    <li><a href="https://es.wikipedia.org/wiki/Historia_de_la_World_Wide_Web" target="_blank">Historia de la World Wide Web - Wikipedia</a></li>
+                    <li><a href="https://www.bbvaopenmind.com/tecnologia/visionarios/tim-berners-lee-y-el-origen-de-la-web/" target="_blank">Tim Berners-Lee y el origen de la Web | OpenMind</a></li>
+                </ul>
+            </li>
+            <li><strong>HTML</strong>
+                <ul>
+                    <li><a href="https://es.wikipedia.org/wiki/HTML" target="_blank">HTML - Wikipedia</a></li>
+                    <li><a href="https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Getting_started" target="_blank">Empezar con HTML - MDN (Mozilla)</a></li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+
+    <footer>
+        <p>Autor: Arcas Jiménez, Ilia. </p>
+        <p>Actividad: ASIX1M4UF1A4-Mi primera página HTML</p>
+    </footer>
+    <a href="#indice">Volver al índice de contenidos</a>
+</div>
+
+</body>
+</html>
